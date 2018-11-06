@@ -16,4 +16,8 @@ paragraph{
 footer{
 
 }
-
+/*Formating for Content Page*/
+	.contentp{
+		font-size: 1.5em;
+		}
+/*End of formating for Content Page*/
