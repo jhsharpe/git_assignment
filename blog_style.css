@@ -1,7 +1,29 @@
+
+
 nav {
+		background-color: rgb(36, 37, 37);
+		display: flex;
+		position: relative;
+
+		border-radius: 20px;
 
 }
 
+#about {
+		position: relative;
+		margin-left: 950px;
+		border-radius: 100px;
+		margin-bottom: 15px;
+}
+
+#logo {
+		position: relative;
+		margin-left: 100px;
+		margin-top: 15px;
+		border-radius: 100px;
+		height: 70%;
+		margin-top:
+}
 header{
 	#hero{
 	}
@@ -16,4 +38,3 @@ paragraph{
 footer{
 
 }
-
