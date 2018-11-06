@@ -1,10 +1,55 @@
-nav {
+.container {
+    display: flex;
+}
+
+.container > li  {
+    flex: 1;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(27, 112, 210);
+    height: 12%;
+}
+
+li {
+    float: left;
 
 }
 
-header{
-	
+li a {
+    display: block;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    background-color: black;
+    margin-top: 6%;
+    margin-left: -50%;
+    margin-right: 10%;
+    border-radius: 50px;
+    font-weight:bold;
+    text-transform: uppercase;
 }
+
+li img {
+    display: block;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 0px;
+    border-radius: 100px;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    margin-left: 10%;
+}
+
+li :hover {
+    background-color: grey;
 
 body{
 	background-color: lightgrey;
@@ -56,11 +101,30 @@ a:active {
     text-decoration: underline;
 }
 
-paragraph{
 
+.active {
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 10%;
+}
+  
+.containerfooter {
+    display: flex;
 }
 
-footer{
+.containerfooter > li  {
+    flex: 1;
+}
+
+#footer {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(27, 112, 210);
+	height: 12%;
 
 }
 /*Formating for Content Page*/
