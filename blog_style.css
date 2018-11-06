@@ -1,8 +1,9 @@
-.container {
+
+.container-fluid {
     display: flex;
 }
 
-.container > li  {
+.container-fluid > li  {
     flex: 1;
 }
 
@@ -50,7 +51,7 @@ li img {
 
 li :hover {
     background-color: grey;
-
+}
 body{
 	background-color: lightgrey;
 }
@@ -108,7 +109,7 @@ a:active {
     margin-left: 50%;
     margin-right: 10%;
 }
-  
+
 .containerfooter {
     display: flex;
 }
