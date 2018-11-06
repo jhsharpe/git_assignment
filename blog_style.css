@@ -1,13 +1,6 @@
-nav {
-
-}
-
-header{
-	
-}
-
 body{
 	background-color: lightgrey;
+	width:100%;
 }
 
 #hero{
@@ -16,53 +9,53 @@ body{
 	background-color: lightblue;
 	border-radius: 25px;
 	position: relative;
+	width:100%;
 }
 
 #hero_text{
 	text-align: left;
+	font-size: 1.5em;
 	position: relative;
 	top: 55px;
-	left:20%;
+	left: 20%;
 	color: Black;
+	width:80%;
 }
 
 #blog_post{
 	text-align: left;
 	position: relative;
-	top: 55px;
+	top: 10px;
 	left: 30%;
 	color: Black;
+	width: 40%;
+	border:;
 }
 
-a:link {
-    color: blue;
+#hlink:link {
+    color: blue !important;
     background-color: transparent;
     text-decoration: none;
 }
-a:visited {
-    color: lightpurple;
+
+#hlink:visited {
+    color: lightpurple !important;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-a:active {
-    color: cyan;
+#hlink:hover {
+    color: red !important;
     background-color: transparent;
     text-decoration: underline;
 }
 
-paragraph{
-
+#hlink:active {
+    color: cyan !important;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
-footer{
-
-}
 /*Formating for Content Page*/
 	.contentp{
 		font-size: 1.5em;
