@@ -115,6 +115,38 @@ body{
     margin-left: 50%;
     margin-right: 10%;
 }
+/*Styles for About Us Page*/
+.form-inline{
+	padding-top: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.w-75{
+ pagging-left: 5%;
+}
+
+.aboutusname{
+	font-size: 48px;
+	font-weight: bold;
+	line-height: normal;
+	margin: 0;
+}
+
+.aboutustitle{
+	font-size: 20px;
+	line-height: normal;
+	font-style: italic;
+	margin: 0;
+}
+
+.aboutusdescriprion{
+	font-size: 19px;
+	margin-top: 5%;
+}
+
+
+/* End of Styles for About Us*/
 
 .containerfooter {
     display: flex;
@@ -139,3 +171,4 @@ body{
 		font-size: 1.5em;
 		}
 /*End of formating for Content Page*/
+
