@@ -65,22 +65,3 @@ li :hover {
 body {
     background-color: lightblue;
 }
-
-.containerfooter {
-    display: flex;
-}
-
-.containerfooter > li  {
-    flex: 1;
-}
-
-#footer {
-
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: rgb(27, 112, 210);
-	height: 12%;
-
-}
