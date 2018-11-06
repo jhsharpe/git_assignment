@@ -1,20 +1,119 @@
-nav {
+.container-fluid {
+    display: flex;
+}
+
+.container-fluid > li  {
+    flex: 1;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(27, 112, 210);
+    height: 12%;
+}
+
+li {
+    float: left;
 
 }
 
-header{
-	#hero{
-	}
+li a {
+    display: block;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    background-color: black;
+    margin-top: 6%;
+    margin-left: -50%;
+    margin-right: 10%;
+    border-radius: 50px;
+    font-weight:bold;
+    text-transform: uppercase;
 }
 
-
-
-paragraph{
-
+li img {
+    display: block;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 0px;
+    border-radius: 100px;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    margin-left: 10%;
 }
 
-footer{
+li :hover {
+    background-color: grey;
+}
+body{
+	background-color: lightgrey;
+	width:99%;
+}
 
+#hero{
+	display: flex;
+	height: 250px;
+	background-color: lightblue;
+	border-radius: 25px;
+	position: relative;
+	width:100%;
+}
+
+#hero_text{
+	text-align: left;
+	font-size: 1.5em;
+	position: relative;
+	top: 55px;
+	left: 20%;
+	color: Black;
+	width:80%;
+}
+
+#blog_post{
+	text-align: left;
+	position: relative;
+	top: 10px;
+	left: 30%;
+	color: Black;
+	width: 40%;
+	border:;
+}
+
+#hlink:link {
+    color: blue !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#hlink:visited {
+    color: lightpurple !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#hlink:hover {
+    color: red !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#hlink:active {
+    color: cyan !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.active {
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 10%;
 }
 /*Styles for About Us Page*/
 .form-inline{
@@ -46,4 +145,30 @@ footer{
 	margin-top: 5%;
 }
 
+
 /* End of Styles for About Us*/
+
+.containerfooter {
+    display: flex;
+}
+
+.containerfooter > li  {
+    flex: 1;
+}
+
+#footer {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(27, 112, 210);
+	height: 12%;
+
+}
+/*Formating for Content Page*/
+	.contentp{
+		font-size: 1.5em;
+		}
+/*End of formating for Content Page*/
+
