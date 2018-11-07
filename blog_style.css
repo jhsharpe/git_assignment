@@ -13,6 +13,7 @@
     overflow: hidden;
     background-color: rgb(27, 112, 210);
     height: 12%;
+    border-radius: 25px;
 }
 
 li, lifooter {
@@ -141,13 +142,6 @@ body{
 
 /* End of Styles for About Us*/
 
-.containerfooter {
-    display: flex;
-}
-
-.containerfooter > li  {
-    flex: 1;
-}
 
 lifooter img {
 
