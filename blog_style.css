@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.container-fluid > li  {
+.container-fluid > li, lifooter  {
     flex: 1;
 }
 
@@ -15,7 +15,7 @@
     height: 12%;
 }
 
-li {
+li, lifooter {
     float: left;
 
 }
@@ -39,8 +39,6 @@ li a {
 li img {
     display: block;
     color: white;
-    font-size: 2em;
-    text-align: center;
     padding: 0px;
     border-radius: 100px;
     margin-top: 3%;
@@ -156,19 +154,27 @@ body{
     flex: 1;
 }
 
-#footer {
+lifooter img {
 
+    padding: 10px;
+    border-radius: 180px;
+    height: 60%;
+    width: 30%
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+}
+
+footer {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: rgb(27, 112, 210);
-	height: 12%;
-
+	height: 7%;
 }
 /*Formating for Content Page*/
 	.contentp{
 		font-size: 1.5em;
 		}
 /*End of formating for Content Page*/
-
