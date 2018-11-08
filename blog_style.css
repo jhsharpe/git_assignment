@@ -18,7 +18,6 @@
 
 li, lifooter {
     float: left;
-
 }
 
 li a {
@@ -50,9 +49,10 @@ li img {
 li :hover {
     background-color: grey;
 }
+
 body{
 	background-color: lightgrey;
-	width:99%;
+	width:100%;
 }
 
 #hero{
@@ -108,7 +108,6 @@ body{
     text-decoration: underline;
 }
 
-}
 /*Styles for About Us Page*/
 .form-inline{
 	padding-top: 3%;
@@ -144,7 +143,6 @@ body{
 
 
 lifooter img {
-
     padding: 10px;
     border-radius: 180px;
     height: 60%;
@@ -161,9 +159,10 @@ footer {
 	overflow: hidden;
 	background-color: rgb(27, 112, 210);
 	height: 7%;
+	border-radius: 25px;
 }
 /*Formating for Content Page*/
-	.contentp{
-		font-size: 1.5em;
-		}
+.contentp{
+	font-size: 1.5em;
+}
 /*End of formating for Content Page*/
